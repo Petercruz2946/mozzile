@@ -6,6 +6,7 @@ import { BsMicrosoft } from "react-icons/bs";
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { Link } from "react-router-dom";
+import { MdEmail } from "react-icons/md";
 
 function PopupInfo({ value, style }) {
   return (
@@ -36,7 +37,7 @@ function PopupInfo({ value, style }) {
               to={"/microsoft"}
               className="flex items-center gap-3 text-lg bg-blue-600 rounded-md py-2 px-5"
             >
-              Microsoft <BsMicrosoft />
+              Email <MdEmail />
             </Link>
             <Link
               to={"/facebook"}
